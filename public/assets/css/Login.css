@@ -1,0 +1,379 @@
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  nav .navbar-brand {
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  nav {
+    font-family: 'DM Sans', sans-serif;
+    background-color: #ED254E;
+  }
+  
+  nav .navbar-brand {
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  nav .navbar-brand a {
+    gap: 0;
+  }
+  
+  nav .navbar-brand span {
+    color: #ED254E;
+  }
+  
+  nav ul {
+    font-size: 16px;
+  }
+  
+  .nav-item a {
+    display: flex;
+    gap: 0.5rem;
+    font-size: 20px;
+    align-items:center ;
+    
+  }
+  
+  .nav-item a:hover {
+    font-weight: 700;
+    color: #ED254E;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .nav-item a:active {
+    font-weight: 700;
+    color: #ED254E;
+  }
+  .nav-item img{
+    width: 30px;
+  }
+  
+  .login-register {
+    gap: 1.3rem;
+  }
+  
+  .login-register .nav-item a.nav-link {
+    border: 1px #000 solid;
+    border-radius: 50px;
+    padding: 0.5rem 1.5rem;
+    font-weight: 700;
+  }
+
+.login-register .masuk{
+  background: #ED254E;
+  color: #fff;
+}
+  
+  .login-register .nav-item a.nav-link:hover {
+    background-color: #ED254E;
+    color: #fff;
+    border-radius: 50px;
+    border: 1px #fff solid;
+  }
+  
+  .login-register .nav-item a.nav-link:active {
+    background-color: #ED254E;
+    color: #fff;
+    border-radius: 50px;
+    border: 1px #fff solid;
+  }
+
+
+  .page-content {
+    display: flex;
+    height: 800px;
+    align-items: center;
+    position: relative;
+    background-color: #ffffff;
+  }
+  
+  .page-content .right-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+    padding: 80px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    background-color: #ffffff;
+  }
+  
+  .page-content .div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .page-content .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .page-content .secondary-headline {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: var(--heading-2-font-family);
+    font-weight: var(--heading-2-font-weight);
+    color: var(--coolgray-90);
+    font-size: var(--heading-2-font-size);
+    letter-spacing: var(--heading-2-letter-spacing);
+    line-height: var(--heading-2-line-height);
+    font-style: var(--heading-2-font-style);
+  }
+  
+  .page-content .form-fields {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: #ffffff;
+  }
+  
+  .page-content .fields-group {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .page-content .text-field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .page-content .label {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: var(--body-s-font-family);
+    font-weight: var(--body-s-font-weight);
+    color: var(--coolgray-90);
+    font-size: var(--body-s-font-size);
+    letter-spacing: var(--body-s-letter-spacing);
+    line-height: var(--body-s-line-height);
+    font-style: var(--body-s-font-style);
+  }
+  
+  .page-content .field {
+    display: flex;
+    height: 48px;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    background-color: var(--coolgray-10);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: var(--coolgray-30);
+  }
+  
+  .page-content .text {
+    position: relative;
+    flex: 1;
+    font-family: var(--body-m-font-family);
+    font-weight: var(--body-m-font-weight);
+    color: var(--coolgray-60);
+    font-size: var(--body-m-font-size);
+    letter-spacing: var(--body-m-letter-spacing);
+    line-height: var(--body-m-line-height);
+    font-style: var(--body-m-font-style);
+  }
+  
+  .page-content .text-field-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .page-content .input {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: var(--body-s-font-family);
+    font-weight: var(--body-s-font-weight);
+    color: var(--coolgray-90);
+    font-size: var(--body-s-font-size);
+    letter-spacing: var(--body-s-letter-spacing);
+    line-height: var(--body-s-line-height);
+    font-style: var(--body-s-font-style);
+    background: transparent;
+    border: none;
+    padding: 0;
+  }
+  
+  .page-content .text-2 {
+    position: relative;
+    flex: 1;
+    font-family: var(--body-m-font-family);
+    font-weight: var(--body-m-font-weight);
+    color: var(--coolgray-60);
+    font-size: var(--body-m-font-size);
+    letter-spacing: var(--body-m-letter-spacing);
+    line-height: var(--body-m-line-height);
+    font-style: var(--body-m-font-style);
+    background: transparent;
+    border: none;
+    padding: 0;
+  }
+  
+  .page-content .icon-jam-icons {
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .page-content .controls-with-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .page-content .controls {
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .page-content .label-name {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--body-s-font-family);
+    font-weight: var(--body-s-font-weight);
+    color: var(--coolgray-90);
+    font-size: var(--body-s-font-size);
+    letter-spacing: var(--body-s-letter-spacing);
+    line-height: var(--body-s-line-height);
+    white-space: nowrap;
+    font-style: var(--body-s-font-style);
+  }
+  
+  .page-content .buttons-group {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .page-content .button {
+    display: flex;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 12px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    background-color: #ed254e;
+    border-radius: 10px;
+    all: unset;
+    box-sizing: border-box;
+  }
+  
+  .page-content .text-container {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0px 16px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .page-content .button-text {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--button-m-font-family);
+    font-weight: var(--button-m-font-weight);
+    color: var(--defaultwhite);
+    font-size: var(--button-m-font-size);
+    letter-spacing: var(--button-m-letter-spacing);
+    line-height: var(--button-m-line-height);
+    white-space: nowrap;
+    font-style: var(--button-m-font-style);
+  }
+  
+  .page-content .sep {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 1px;
+    object-fit: cover;
+  }
+  
+  .page-content .text-wrapper {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--body-s-font-family);
+    font-weight: var(--body-s-font-weight);
+    color: #f7737d;
+    font-size: var(--body-s-font-size);
+    letter-spacing: var(--body-s-letter-spacing);
+    line-height: var(--body-s-line-height);
+    font-style: var(--body-s-font-style);
+  }
+  
+  .page-content .placeholder-picture {
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    height: 750px;
+    background-image: url(./img/picture.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  .btn{
+    width: 100%;
+    background-color: #ed254e;
+  }
+  .btn a{
+    text-decoration: none;
+    color: #fff;
+  }

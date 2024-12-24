@@ -1,0 +1,554 @@
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  nav .navbar-brand {
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  nav {
+    font-family: 'DM Sans', sans-serif;
+    background-color: #ED254E;
+  }
+  
+  nav .navbar-brand {
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  nav .navbar-brand a {
+    gap: 0;
+  }
+  
+  nav .navbar-brand span {
+    color: #ED254E;
+  }
+  
+  nav ul {
+    font-size: 16px;
+  }
+  
+  .nav-item a {
+    display: flex;
+    gap: 0.5rem;
+    font-size: 20px;
+    align-items:center ;
+    
+  }
+  
+  .nav-item a:hover {
+    font-weight: 700;
+    color: #ED254E;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .nav-item a:active {
+    font-weight: 700;
+    color: #ED254E;
+  }
+  .nav-item img{
+    width: 30px;
+  }
+  
+  .login-register {
+    gap: 1.3rem;
+  }
+  
+  .login-register .nav-item a.nav-link {
+    border: 1px #000 solid;
+    border-radius: 50px;
+    padding: 0.5rem 1.5rem;
+    font-weight: 700;
+  }
+  
+  .login-register .nav-item a.nav-link:hover {
+    background-color: #ED254E;
+    color: #fff;
+    border-radius: 50px;
+    border: 1px #fff solid;
+  }
+  
+  .login-register .nav-item a.nav-link:active {
+    background-color: #ED254E;
+    color: #fff;
+    border-radius: 50px;
+    border: 1px #fff solid;
+  }
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 48px;
+    padding: 24px 65px 48px;
+    position: relative;
+    background-color: #ed254e;
+  }
+  
+  .footer .top {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .footer .logo-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+    flex-grow: 1;
+    align-items: flex-start;
+    position: relative;
+  }
+  
+  .footer .logo {
+    display: inline-flex;
+    gap: 5px;
+    flex: 0 0 auto;
+    align-items: flex-start;
+    position: relative;
+  }
+  
+  .footer .img {
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .footer .text {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    flex: 0 0 auto;
+    
+  }
+  
+  .footer .brand {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "DM Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 26.4px;
+    white-space: nowrap;
+  }
+  
+  .footer .menu {
+    justify-content: flex-end;
+    gap: 16px;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .footer .menu-item {
+    gap: 8px;
+    padding: 12px 8px;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .footer .text-wrapper {
+    position: relative;
+    width: fit-content;
+    font-family: var(--other-menu-m-font-family);
+    font-weight: var(--other-menu-m-font-weight);
+    color: #fff;
+    font-size: var(--other-menu-m-font-size);
+    letter-spacing: var(--other-menu-m-letter-spacing);
+    line-height: var(--other-menu-m-line-height);
+    white-space: nowrap;
+    font-style: var(--other-menu-m-font-style);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .text-wrapper:hover{
+    transform: scale(1.2);
+    transition: 2ms;
+  }
+  
+  .footer .social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 16px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .footer .div {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--body-s-font-family);
+    font-weight: var(--body-s-font-weight);
+    color: #fff;
+    font-size: var(--body-s-font-size);
+    text-align: center;
+    letter-spacing: var(--body-s-letter-spacing);
+    line-height: var(--body-s-line-height);
+    font-style: var(--body-s-font-style);
+  }
+
+  .section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 64px;
+    padding: 50px 65px;
+    position: relative;
+    background-color: #011936;
+  }
+  
+  .section .section-text {
+    display: flex;
+    flex-direction: column;
+    width: 1280px;
+    align-items: flex-start;
+    gap: 48px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .section .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .section .heading {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--headings-h2-font-family);
+    font-weight: var(--headings-h2-font-weight);
+    color: #ffffff;
+    font-size: var(--headings-h2-font-size);
+    text-align: center;
+    letter-spacing: var(--headings-h2-letter-spacing);
+    line-height: var(--headings-h2-line-height);
+    white-space: nowrap;
+    font-style: var(--headings-h2-font-style);
+  }
+  
+  .section .paragraph {
+    position: relative;
+    width: 751px;
+    font-family: "DM Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 25px;
+  }
+  
+  .section .frame {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .section .content-box {
+    height: 524px;
+    align-items: center;
+    flex: 1;
+    flex-grow: 1;
+    background-color: var(--defaultwhite);
+    border-radius: 35px;
+    border: 1px solid;
+    border-color: var(--coolgray-20);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .section .placeholder-picture {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 290px;
+    border-radius: 35px 35px 0px 0px;
+    background-image: url(./img/image.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .section .content {
+    height: 216px;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 24px 16px 16px;
+    align-self: stretch;
+    width: 100%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .section .title-category {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .section .category {
+    width: 348px;
+    margin-top: -1px;
+    font-family: var(--subtitle-m-font-family);
+    font-weight: var(--subtitle-m-font-weight);
+    color: var(--coolgray-90);
+    line-height: var(--subtitle-m-line-height);
+    position: relative;
+    font-size: var(--subtitle-m-font-size);
+    letter-spacing: var(--subtitle-m-letter-spacing);
+    font-style: var(--subtitle-m-font-style);
+  }
+  
+  .section .title {
+    position: relative;
+    width: 348px;
+    font-family: var(--heading-5-font-family);
+    font-weight: var(--heading-5-font-weight);
+    color: var(--coolgray-90);
+    font-size: var(--heading-5-font-size);
+    letter-spacing: var(--heading-5-letter-spacing);
+    line-height: var(--heading-5-line-height);
+    font-style: var(--heading-5-font-style);
+  }
+  
+  .section .user-card {
+    display: flex;
+    height: 74px;
+    align-items: center;
+    gap: 15px;
+    padding: 7px 0px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+  }
+  
+  .section .user-thumb {
+    width: 48px;
+    height: 48px;
+    justify-content: center;
+    gap: 10px;
+    background-color: var(--coolgray-10);
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .section .icon-jam-icons {
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .section .details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .section .text-wrapper {
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: var(--subtitle-m-font-family);
+    font-weight: var(--subtitle-m-font-weight);
+    color: var(--coolgray-90);
+    line-height: var(--subtitle-m-line-height);
+    position: relative;
+    font-size: var(--subtitle-m-font-size);
+    letter-spacing: var(--subtitle-m-letter-spacing);
+    font-style: var(--subtitle-m-font-style);
+    
+  }
+  
+  
+  .section .div {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--body-small-font-family);
+    font-weight: var(--body-small-font-weight);
+    color: #ffffff;
+    font-size: var(--body-small-font-size);
+    letter-spacing: var(--body-small-letter-spacing);
+    line-height: var(--body-small-line-height);
+    white-space: nowrap;
+    font-style: var(--body-small-font-style);
+    text-decoration: none;
+  }
+  
+  .section .style-outlined {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 12px 20px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-bottom: -10px;
+    background-color: #ed254e;
+    border-radius: 50px;
+    overflow: hidden;
+  }
+  
+  .section .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--body-small-font-family);
+    font-weight: var(--body-small-font-weight);
+    color: #ffffff;
+    font-size: var(--body-small-font-size);
+    letter-spacing: var(--body-small-letter-spacing);
+    line-height: var(--body-small-line-height);
+    white-space: nowrap;
+    font-style: var(--body-small-font-style);
+    text-decoration: none;
+  }
+  
+  .section .placeholder-picture-2 {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 290px;
+    border-radius: 35px 35px 4px 4px;
+    background-image: url(./img/picture.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .section .content-2 {
+    align-items: flex-start;
+    gap: 16px;
+    padding: 24px 16px 16px;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .section .user-card-2 {
+    gap: 15px;
+    padding: 7px 0px;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .section .style-outlined-2 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 12px 20px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #ed254e;
+    border-radius: 50px;
+    overflow: hidden;
+  }
+  
+  .section .placeholder-picture-3 {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 290px;
+    border-radius: 35px 35px 4px 4px;
+    background-image: url(./img/picture-2.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .section .placeholder-picture-4 {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 290px;
+    border-radius: 35px 35px 4px 4px;
+    background-image: url(./img/picture-5.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .section .title-category-2 {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    align-items: flex-start;
+    gap: 4px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .section .placeholder-picture-5 {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 290px;
+    border-radius: 35px 35px 4px 4px;
+    background-image: url(./img/picture-4.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .section .placeholder-picture-6 {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 290px;
+    border-radius: 35px 35px 4px 4px;
+    background-image: url(./img/picture-3.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  

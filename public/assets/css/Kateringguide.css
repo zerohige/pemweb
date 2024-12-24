@@ -1,0 +1,23 @@
+:root {
+    --neutral-colorswhite: rgba(255, 255, 255, 1);
+    --neutral-colorscolor-600: rgba(212, 210, 227, 1);
+    --headings-h2-font-family: "DMSans-Bold", Helvetica;
+    --headings-h2-font-weight: 700;
+    --headings-h2-font-size: 36px;
+    --headings-h2-letter-spacing: 0px;
+    --headings-h2-line-height: 46px;
+    --headings-h2-font-style: normal;
+    --headings-h3-font-family: "DMSans-Bold", Helvetica;
+    --headings-h3-font-weight: 700;
+    --headings-h3-font-size: 24px;
+    --headings-h3-letter-spacing: 0px;
+    --headings-h3-line-height: 34px;
+    --headings-h3-font-style: normal;
+    --body-small-font-family: "DMSans-Regular", Helvetica;
+    --body-small-font-weight: 400;
+    --body-small-font-size: 16px;
+    --body-small-letter-spacing: 0.5px;
+    --body-small-line-height: 24px;
+    --body-small-font-style: normal;
+  }
+  

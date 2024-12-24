@@ -1,0 +1,45 @@
+:root {
+    --coolgray-90: rgba(33, 39, 42, 1);
+    --coolgray-10: rgba(242, 244, 248, 1);
+    --coolgray-60: rgba(105, 112, 119, 1);
+    --defaultwhite: rgba(255, 255, 255, 1);
+    --coolgray-20: rgba(221, 225, 230, 1);
+    --primary-60: rgba(15, 98, 254, 1);
+    --headings-h2-font-family: "DMSans-Bold", Helvetica;
+    --headings-h2-font-weight: 700;
+    --headings-h2-font-size: 36px;
+    --headings-h2-letter-spacing: 0px;
+    --headings-h2-line-height: 46px;
+    --headings-h2-font-style: normal;
+    --subtitle-m-font-family: "Roboto-Medium", Helvetica;
+    --subtitle-m-font-weight: 500;
+    --subtitle-m-font-size: 16px;
+    --subtitle-m-letter-spacing: 0px;
+    --subtitle-m-line-height: 110.00000238418579%;
+    --subtitle-m-font-style: normal;
+    --heading-5-font-family: "Roboto-Bold", Helvetica;
+    --heading-5-font-weight: 700;
+    --heading-5-font-size: 20px;
+    --heading-5-letter-spacing: 0px;
+    --heading-5-line-height: 110.00000238418579%;
+    --heading-5-font-style: normal;
+    --body-m-font-family: "Roboto-Regular", Helvetica;
+    --body-m-font-weight: 400;
+    --body-m-font-size: 16px;
+    --body-m-letter-spacing: 0px;
+    --body-m-line-height: 139.9999976158142%;
+    --body-m-font-style: normal;
+    --body-small-font-family: "DMSans-Regular", Helvetica;
+    --body-small-font-weight: 400;
+    --body-small-font-size: 16px;
+    --body-small-letter-spacing: 0.5px;
+    --body-small-line-height: 24px;
+    --body-small-font-style: normal;
+    --button-m-font-family: "Roboto-Medium", Helvetica;
+    --button-m-font-weight: 500;
+    --button-m-font-size: 16px;
+    --button-m-letter-spacing: 0.5px;
+    --button-m-line-height: 100%;
+    --button-m-font-style: normal;
+  }
+  
